@@ -39,4 +39,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploy on surge
-      run: surge ./build http://react-first-app-bootcamp.surge.sh/  --token ${{surge.SURGE_TOKEN}}
+      run: surge ./build http://react-first-app-bootcamp.surge.sh/  --token "cc0ebdb332ac7426d11bc045a918d382"
